@@ -1,0 +1,31 @@
+ \documentclass[extrafontsizes,ebook,12pt,oneside]{memoir}
+\input{preamble}
+\input{chartPreamble}
+   
+\usepackage{makeidx}  		% index package   
+\makeindex
+
+\begin{document}
+\chapterstyle{bringhurst}
+\frontmatter
+\pagenumbering{gobble}  % suppress page number on title page
+\input{title}
+\pagenumbering{roman}	  % turn page numbering back on
+\input{preface}
+\tableofcontents
+\cleardoublepage
+\listoffigures
+\newpage
+\listoftables
+\newpage
+\mainmatter
+\begingroup
+\let\clearpage\relax
+% -- book files to include ---------------------------------
+\input{book01}
+
+% ----------------------------------------------------------
+\endgroup
+
+\printindex
+\end{document}
