@@ -6,7 +6,7 @@ There are a number of copies of the original text online, rather than re-type th
 
 If you want the original text try these sites:
 
-Pingree's original text on [Archive.org](https://archive.org/details/PingreeDS1976).
+- Pingree's original text on [Archive.org](https://archive.org/details/PingreeDS1976).
 
 - David French's copy of Pingree's translation on [Academia.edu](https://www.academia.edu/36454527/Dorotheus_of_Sidon_CARMEN_ASTROLOGICUM_translated_by_David_Pingree).
 
