@@ -90,6 +90,10 @@
 \makesavenoteenv{tabular}
 \makesavenoteenv{table}
 
+% push footnotes to bottom of page
+\raggedbottom
+\renewcommand{\footnoterule}{\vfill\kern -3pt \hrule width 0.4\columnwidth \kern 2.6pt}
+
 % set highlight color
 \definecolor{lemonyellow}{rgb}{1, .95, .43}
 \sethlcolor{lemonyellow}
